@@ -61,4 +61,24 @@ a {
     text-decoration: none;
   }
 }
+.calendar {
+    font-family: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif;
+    width: 100%;
+}
+
+.calendar-wrapper {
+    width: 100%;
+}
+
+.week {
+    font-size: 9px;
+    alignment-baseline: central;
+    fill: #AAA;
+}
+
+.month {
+    font-size: 10px;
+    alignment-baseline: central;
+    fill: #AAA;
+}
 `
