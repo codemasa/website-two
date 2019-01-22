@@ -14,7 +14,7 @@ const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: #EEAAAA;
 `
 const Brand = styled.h1`
   padding-left: 10vw;

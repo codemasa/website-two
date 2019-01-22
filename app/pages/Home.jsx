@@ -9,7 +9,11 @@ const Home = () => (
       <title>Home Page</title>
     </Helmet>
     <Contents>
-      Follow me <a href="https://www.twitter.com/codymasao" target="_blank">@codymasao</a>
+      <h1>
+        Welcome to my website!
+      </h1>
+
+
     </Contents>
 
   </Page>

@@ -8,20 +8,20 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaTwitch } from "react-icons/fa";
 
 
-const Header = styled.footer`
+const Footer = styled.footer`
   z-index: 100;
-  position: relative;
+  position: flex;
   bottom: 0;
   left: 0;
   right: 0;
   max-width: 100vw;
-  max-height: 10vh;
+  max-height: 30vh;
   margin: 0 auto;
   padding: 1em 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: #EEEEAA;
 `
 const Brand = styled.h1`
   padding-left: 10vw;
@@ -40,9 +40,10 @@ const MenuLink = styled.li`
 `
 export default () => (
 
-  <Header>
+  <Footer>
     <Brand>Cody Masao</Brand>
     <Menu>
+      Socials: 
       <MenuLink>
         <a href="https://github.com/codemasa" target="_blank">
           <FaGithub/>
@@ -64,6 +65,6 @@ export default () => (
         </a>
       </MenuLink>
     </Menu>
-  </Header>
+  </Footer>
 
 )
