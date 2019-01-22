@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 const Contents = styled.div`
-  padding-top: 4%;
+  padding-top: 10%;
   padding-left: 10px;
   padding-right: 10px;
   width: 80vw;
