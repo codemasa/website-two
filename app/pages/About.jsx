@@ -9,7 +9,7 @@ const About = () => (
       <title>About Page</title>
     </Helmet>
     <Contents>
-      This is the about page
+      Who is Cody Abe?
     </Contents>
 
   </Page>

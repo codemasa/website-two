@@ -25,9 +25,12 @@
   },
   "homepage": "https://github.com/codemasa/website-two#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "llog": "^0.2.0",
+    "mongoose": "^5.4.6",
+    "morgan": "^1.9.1",
     "pino": "^5.10.8",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
