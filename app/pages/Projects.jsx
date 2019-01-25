@@ -10,7 +10,7 @@ const Projects = () => (
       <title>About Page</title>
     </Helmet>
     <Contents>
-      <SevenSegmentCounter height={150} width={600} onColor={"#FFFFFF"} offColor={"#444444"} backgroundColor={"#000000"}/>
+      <SevenSegmentCounter width={600} onColor={"#FFFFFF"} offColor={"#444444"} backgroundColor={"#000000"}/>
     </Contents>
 
   </Page>
