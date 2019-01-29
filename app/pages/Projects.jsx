@@ -4,13 +4,14 @@ import SevenSegmentCounter from 'seven-segment-counter';
 import Page from '../components/Page.jsx';
 import Contents from '../components/Contents.jsx';
 
+const buttonTags = {increment: "+", decrement:"-"};
 const Projects = () => (
   <Page>
     <Helmet>
       <title>About Page</title>
     </Helmet>
     <Contents>
-      <SevenSegmentCounter width={600} onColor={"#FFFFFF"} offColor={"#444444"} backgroundColor={"#000000"}/>
+      <SevenSegmentCounter buttonTag={buttonTags} className="ssc" width={600} onColor={"#000000"} offColor={"#BBEEBB"} backgroundColor={"#AAFFAA"}/>
     </Contents>
 
   </Page>

@@ -80,5 +80,21 @@ a {
     font-size: 10px;
     alignment-baseline: central;
     fill: #AAA;
+
+}
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+canvas{
+  display: inline-block;
+}
+.ssc{
+  background-color: #123456;
 }
 `
