@@ -83,18 +83,26 @@ a {
 
 }
 button{
-  background-color: #4CAF50; /* Green */
+  background-color: #CCBBAA;
   border: none;
   color: white;
-  padding: 10px 15px;
+  padding: 28.601px 15px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
 }
+button:focus{
+  outline: none;
+}
+button:active{
+  background-color: #BBCCAA;
+}
 canvas{
   display: inline-block;
 }
-.ssc{
-  background-color: #123456;
+
+.buttonClass{
+  display: inline-grid;
+  position: absolute;
 }
 `
