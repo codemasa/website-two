@@ -4,7 +4,6 @@ import Page from '../components/Page.jsx';
 import Contents from '../components/Contents.jsx';
 import Project from '../components/Project.jsx';
 
-const buttonTags = {increment: "+", decrement:"-"};
 const Projects = () => (
   <Page>
     <Helmet>
