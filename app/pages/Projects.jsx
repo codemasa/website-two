@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet-async';
 import Page from '../components/Page.jsx';
 import Contents from '../components/Contents.jsx';
-import Project from '../components/Project.jsx';
+import SSCProject from '../components/SSCProject.jsx';
 
 const Projects = () => (
   <Page>
@@ -10,7 +10,7 @@ const Projects = () => (
       <title>About Page</title>
     </Helmet>
     <Contents>
-      <Project />
+      <SSCProject />
     </Contents>
 
   </Page>

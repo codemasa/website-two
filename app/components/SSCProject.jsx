@@ -6,34 +6,34 @@ import SevenSegmentCounter from 'seven-segment-counter';
 const buttonTags = {increment: "+", decrement:"-"};
 
 
-const Project = styled.div
+const SSCProject = styled.div
 `
   background-color: #EEDDCC;
 
 `
 
-const ProjectHeader = styled.div
+const SSCProjectHeader = styled.div
 `
 
   background-color: #CCDDEE;
 
 `
 
-const ProjectBody = styled.div
+const SSCProjectBody = styled.div
 `
 
 `
 
 export default () => (
 
-  <Project>
-    <ProjectHeader>
+  <SSCProject>
+    <SSCProjectHeader>
       ProjectHeader
-    </ProjectHeader>
-    <ProjectBody>
+    </SSCProjectHeader>
+    <SSCProjectBody>
       Project Body
       <SevenSegmentCounter buttonClass="buttonClass" buttonTag={buttonTags} width={600} onColor={"#000000"} offColor={"#BBEEBB"} backgroundColor={"#AAFFAA"}/>
-    </ProjectBody>
-  </Project>
+    </SSCProjectBody>
+  </SSCProject>
 
 )
