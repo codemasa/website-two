@@ -3,8 +3,10 @@ import Helmet from 'react-helmet-async';
 import Page from '../components/Page.jsx';
 import Contents from '../components/Contents.jsx';
 import SSCProject from '../components/SSCProject.jsx';
+import LissajousProject from '../components/Lissajous.jsx';
+import TakeANoteProject from '../components/TakeANote.jsx';
 
-import projectDesc from '../resources/descriptions.json';
+
 
 const Projects = () => (
   <Page>
@@ -12,7 +14,9 @@ const Projects = () => (
       <title>About Page</title>
     </Helmet>
     <Contents>
-      <SSCProject description={projectDesc.ssc}/>
+      <TakeANoteProject/>
+      <SSCProject/>
+      <LissajousProject/>
     </Contents>
 
   </Page>
